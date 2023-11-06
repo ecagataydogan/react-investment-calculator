@@ -5,13 +5,13 @@ export default function UserInputs({ handleChange }) {
       <UserInput
         title="initialInvestment"
         handleChange={handleChange}
-      ></UserInput>
+      >Initial Investment</UserInput>
       <UserInput
         title="annualInvestment"
         handleChange={handleChange}
-      ></UserInput>
-      <UserInput title="expectedReturn" handleChange={handleChange}></UserInput>
-      <UserInput title="duration" handleChange={handleChange}></UserInput>
+      >Annual Investment</UserInput>
+      <UserInput title="expectedReturn" handleChange={handleChange}>Expected Return</UserInput>
+      <UserInput title="duration" handleChange={handleChange}>Duration</UserInput>
     </section>
   );
 }

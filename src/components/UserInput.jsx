@@ -1,7 +1,7 @@
-export default function UserInput({ title, handleChange }) {
+export default function UserInput({ title, handleChange, children }) {
   return (
     <div id="input-group">
-      <label htmlFor="">{title}</label>
+      <label htmlFor="">{children}</label>
       <input type="value" onChange={(event) => handleChange(event, title)} />
     </div>
   );
